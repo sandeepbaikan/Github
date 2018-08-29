@@ -1,0 +1,27 @@
+@import "../../assets/styles/styles";
+
+header {
+    padding: 20px;
+    background: @secondary-background-color;
+    color: @secondary-text-color;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        .navigation {
+            display: flex;
+
+            a {
+                display: block;
+                padding: 5px;
+                text-decoration: none;
+                margin-left: 15px;
+            }
+        }
+        .logo {
+            font-size: @primary-font-size + 4;
+            
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@card-width: 500px;
+
+
+:host{
+    display: block;
+}
+
+.user-profile {
+    padding: 5px;
+    width: @card-width;
+
+    &__image {
+        float: left;
+        img {
+            width: 50px;
+            border: 2px solid red;
+        }
+    }
+    &__info {
+        float: left;
+    }
+}
